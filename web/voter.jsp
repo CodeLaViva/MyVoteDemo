@@ -43,7 +43,6 @@
         </div>
         <div style="text-align: center">
             <h3 style="color: white;">当前登录的用户为:${sessionScope.user}</h3>
-            <!--span id="admin_tip" style="color: white;">123</span-->
             <a class="btn btn-default" id="cancel" href="<%=basePath%>index.jsp?flag=unlogin">注销</a>
         </div>
         <div style="text-align: center;">
@@ -60,7 +59,6 @@
                         <td id="name${status.index}">${voter.id}</td>
                         <td>${voter.vote_username}</td>
                         <td>${voter.vote_Date}</td>
-                        <!--td><a class="btn btn-default" href="<%=basePath%>DeleteServlet?id=${user.id}">删除</a></td-->
                     </tr>
                 </c:forEach>
             </table>
